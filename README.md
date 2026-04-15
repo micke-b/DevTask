@@ -15,6 +15,7 @@ Business Logic
 Service
     - API clients (fetches data from the API)
     - Models (data structures for the API responses)
+    - Repository (aggregates services behind a single interface)
 ```
 
 Dependencies are injected, use cases (business logic) are tested.
